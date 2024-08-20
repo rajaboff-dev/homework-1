@@ -130,10 +130,21 @@ main .main-main-header .main-main-header-right button:nth-child(2){
 
 main .main-body table{
     width: 100%;
+    border-collapse: collapse;
+}
+main .main-body table tr{
+    height: 70px;
+    vertical-align: middle;
+}
+main .main-body table tr td:nth-child(3){
+    color: rgb(66, 240, 66);
+}
+main .main-body table tr td:nth-child(4){
+    color: crimson;
 }
 main .main-body table th{
     text-align: start;
-    color: #525462;
+    color: #A4A6B3;
 }
 main .main-body table td img{
     width: 30px;
@@ -142,7 +153,8 @@ main .main-body table td img{
 }
 main .main-body table td,th{
     border: none;
+    padding: 0px 20px;
 }
 main .main-body table tr:nth-child(even){
-    background: #525462;
+    background: #c9c9c968;
 }
